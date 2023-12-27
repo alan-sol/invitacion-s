@@ -11,8 +11,8 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>Alan & Sol</title>
 </head>
-<body class="hidden" id="bodyAr">
-    <div class="loader" id="onload">
+<body class="hidden">
+    <div class="loader">
         <div class="heart"></div>
     </div>
 
@@ -106,6 +106,15 @@
         <h5>Alan & Sol</h5>
         <img src="./img/rosas-final-b.jpg" alt="">
     </div>
+
+    <script>
+        window.addEventListener("load", function () {           
+            const loader = document.querySelector('.loader');
+            loader.style.display = 'none';
+            document.body.classList.remove('hidden');
+            sound.play();
+        });
+    </script>
 
     <script src="./script.js"></script>
 </body>
