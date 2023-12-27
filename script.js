@@ -65,11 +65,11 @@ pauseBtn.addEventListener('click', () =>{
 
 
 //L O A D E R
-window.addEventListener("load", function () {
+/*window.addEventListener("load", function () {
   var onloadHTML = document.getElementById('onload');
   var bodyHTML = document.getElementById('bodyAr');
   sound.play();
     
   onloadHTML.style.display = 'none';
   bodyHTML.classList.remove('hidden');
-});
+});*/
