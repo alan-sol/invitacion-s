@@ -68,6 +68,7 @@ pauseBtn.addEventListener('click', () =>{
 window.addEventListener("load", function () {
   var onloadHTML = document.getElementById('onload');
   var bodyHTML = document.getElementById('bodyAr');
+  sound.play();
     
   onloadHTML.style.display = 'none';
   bodyHTML.classList.remove('hidden');
